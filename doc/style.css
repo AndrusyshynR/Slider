@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(107, 119, 119);
+}
+#slider{
+    max-width: 800px;
+    margin: 60px auto;
+    position: relative;
+}
+
+#slider i{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bold;
+    top: 35%;
+    cursor: pointer;
+    background:#b5b6b657;
+}
+
+#slider i:first-child{
+    left: -57px;
+}
